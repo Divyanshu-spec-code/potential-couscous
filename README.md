@@ -1,34 +1,74 @@
 "# potential-couscous" 
 "# potential-couscous" 
 
- 📊 Customer Churn Prediction App
+# 📊 Customer Churn Prediction
 
-This is a production-ready **Streamlit web application** that predicts whether a telecom
-customer will churn or not using a trained **Random Forest Classifier**. It uses a full
-preprocessing pipeline with **SMOTE** to handle class imbalance and supports both **manual
- input** and **bulk CSV upload**.
+A machine learning model to predict customer churn using historical customer data. This project helps businesses identify customers likely to leave and take proactive retention steps.
 
 ---
 
-## 🔍 Features
+## 🧠 ML Model
 
-- 🧍 **Manual Prediction Mode**: Input individual customer details via form.
-- 📁 **CSV Upload Mode**: Upload a raw dataset and get predictions for multiple customers.
-- 🧠 **Preprocessing Pipeline**: Handles missing values, categorical encoding, and numeric cleaning.
-- 📥 **Download Predictions**: Output CSV with predicted churn labels.
-- ✅ **Built With**: Python, Scikit-learn, Imbalanced-learn, Streamlit.
+- **Algorithm:** Random Forest Classifier  
+- **Imbalance Handling:** SMOTE (Synthetic Minority Oversampling Technique)  
+- **Accuracy:** ~87% (Update with your actual result)
 
 ---
 
-## 🚀 Getting Started
+## 📁 Features Used (19 total)
 
-### 1. Clone the repository
+Examples:
+- `tenure`, `MonthlyCharges`, `TotalCharges`, `Contract`, `PaymentMethod`, `InternetService`, etc.
+
+> ✅ Custom feature engineering and label encoding applied.
+
+---
+
+## 📈 Performance Metrics
+
+- Accuracy  
+- Precision  
+- Recall  
+- F1 Score  
+- Confusion Matrix
+
+> Visualized using Seaborn/Matplotlib
+
+---
+
+## 🧪 EDA (Exploratory Data Analysis)
+
+- Churn distribution analysis  
+- Correlation heatmap  
+- Feature impact plots (e.g., `Contract` vs. Churn)
+
+---
+
+## 🚀 Tech Stack
+
+- **Language:** Python  
+- **Libraries:**  
+  `pandas`, `numpy`, `matplotlib`, `seaborn`, `sklearn`, `imblearn`, `pickle`
+
+---
+
+## 🖥️ Deployment
+
+This project is ready for deployment using **Streamlit** for an interactive web interface.
+
+> 🟢 You can input user details and predict churn live!
+
+---
+
+## 💡 How to Run Locally
+
 ```bash
-git clone https://github.com/your-username/customer-churn-app.git
-cd customer-churn-app
+# Clone the repo
+git clone https://github.com/Divyanshu-spec-code/potential-couscous.git
+cd potential-couscous
 
-### 2. Install Dependencied
+# Install dependencies
 pip install -r requirements.txt
 
-### 3. Run the Streamlit app
+# Run the Streamlit app (if available)
 streamlit run app.py
