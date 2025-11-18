@@ -130,3 +130,4 @@ elif mode == "📁 CSV Upload":
             st.error(f"❌ Error processing file: {e}")
     else:
         st.info("Upload a CSV file to predict churn for multiple customers.")
+ ## 
