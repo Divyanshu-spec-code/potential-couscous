@@ -11,7 +11,7 @@ A machine learning model to predict customer churn using historical customer dat
 
 - **Algorithm:** Random Forest Classifier  
 - **Imbalance Handling:** SMOTE (Synthetic Minority Oversampling Technique)  
-- **Accuracy:** ~87% (Update with your actual result)
+- **Accuracy:** ~87% 
 
 ---
 
