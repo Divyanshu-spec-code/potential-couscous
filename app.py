@@ -129,5 +129,5 @@ elif mode == "📁 CSV Upload":
         except Exception as e:
             st.error(f"❌ Error processing file: {e}")
     else:
-        st.info("Upload a CSV file to predict churn for multiple customers.")
+        st.info("Upload a CSV file to predict churn for multiple customers.ok")
  ## 
